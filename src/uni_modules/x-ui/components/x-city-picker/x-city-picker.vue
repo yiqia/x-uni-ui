@@ -133,17 +133,19 @@ const bindChange = (e) => {
 </script>
 
 <style scoped lang="scss">
-.x-city-picker-view {
-  width: 750rpx;
-  height: 600rpx;
-  margin-top: 20rpx;
+.x-city-picker {
+  &-view {
+    width: 750rpx;
+    height: 600rpx;
+    margin-top: 20rpx;
 
-  &-column {
-    flex: 1;
-    text-align: center;
-    line-height: 100rpx;
-    font-size: 28rpx;
-    color: $x-main-color;
+    &-column {
+      flex: 1;
+      text-align: center;
+      line-height: 100rpx;
+      font-size: 28rpx;
+      color: $x-main-color;
+    }
   }
 }
 </style>

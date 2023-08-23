@@ -1,5 +1,5 @@
 <template>
-  <view>button</view>
+  <view class="x-button">button</view>
 </template>
 <script lang="ts" setup></script>
 
